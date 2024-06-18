@@ -1,0 +1,78 @@
+body {
+    font-family: arial, serif;
+    background-image: url('pic5.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-color: #258694;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: arial black;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(157, 212, 209, 0.9); /* Slightly transparent background */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9DD4D1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #258694;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1e6d7a;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+#successMessage {
+    position: fixed;
+    bottom: 50px; /* Adjust as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    background-color: #00ff00; /* Green color for success */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure it's above other elements */
+}

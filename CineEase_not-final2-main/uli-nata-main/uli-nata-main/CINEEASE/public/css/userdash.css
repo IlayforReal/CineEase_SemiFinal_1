@@ -1,0 +1,104 @@
+/* userdash.css */
+
+body {
+    background-color: #000;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+}
+
+/* Style for the header */
+header {
+    background-color: #000000;
+
+}
+
+/* Style for the content wrapper */
+.content-wrapper {
+    background-color: #222; /* Darker background for the content wrapper */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Add shadow for effect */
+}
+
+/* Style for the content inner area */
+.content-inner {
+    padding: 20px;
+}
+
+/* Style for the section title */
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #444; /* Add a bottom border for separation */
+    padding-bottom: 10px;color: #f39c12;
+}
+
+/* Style for movies container */
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #333; /* Dark background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for effect */
+}
+
+/* Style for movie items */
+.movie-item {
+    background-color: #444; /* Darker background for movie items */
+    color: white; /* White text for contrast */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for effect */
+}
+
+.movie-item .poster {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.movie-item .details {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:  #ff9500;   
+}
+
+.movie-item .book-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9500;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.movie-item .book-now-button:hover {
+    background-color: #995400;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav-link {
+    background-color: #000000; /* Example background color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+.nav-link:hover {
+    background-color: #1f1f1f; /* Example hover background color */
+}

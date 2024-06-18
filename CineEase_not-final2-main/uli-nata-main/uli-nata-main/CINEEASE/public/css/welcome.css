@@ -1,0 +1,73 @@
+/* CSS for Login Page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-color: #258694; /* Fallback color */
+}
+
+.login-container {
+    width: 450px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (opacity) as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Ensure the text is readable against the background */
+    font-family: Arial rgb(255, 255, 255);
+}
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Ensure the text is readable against the background */
+    font-family: Arial rgb(255, 255, 255);
+}
+
+.form-group {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6868;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #942525;
+}
